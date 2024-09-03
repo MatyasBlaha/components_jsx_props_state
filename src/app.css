@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+body {
+    background-color: oklch(87.35% 0.0545 95.51);
+    color: oklch(17.1% 0 289.68);
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.active {
+    font-size: 1.3rem;
+}
